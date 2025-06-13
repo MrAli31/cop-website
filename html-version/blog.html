@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - NextGenAISchool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="min-h-screen bg-background">
+    <!-- Header -->
+    <header class="header fixed top-0 left-0 w-full bg-transparent transition-all duration-300 z-50">
+        <nav class="navbar max-w-7xl mx-auto px-8 py-4">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <span>NextGenAISchool</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="#enrollment" class="cta-button nav-cta">Enroll Now</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen flex items-center px-8 pt-32 pb-16 bg-gradient animate-on-scroll">
+        <div class="max-w-md mx-auto text-center p-4">
+            <h1 class="text-6xl font-bold leading-tight mb-6">
+                Our <span class="gradient-text">Blog</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-8">
+                Insights, tips, and resources for parents, educators, and young learners exploring the exciting world of AI and coding education.
+            </p>
+            <div class="flex justify-center">
+                <button class="primary-btn">
+                    Follow on Social Media
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="featured-post py-24 bg-white animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Featured Article</h2>
+                <p class="text-xl text-gray-600">Our latest insights on AI education</p>
+            </div>
+            
+            <div class="featured-article bg-gradient">
+                <div class="article-grid">
+                    <div class="article-content">
+                        <span class="category-tag">Education</span>
+                        <h3 class="text-3xl font-bold mb-4">Why Kids Should Learn AI: Preparing for the Future</h3>
+                        <p class="text-lg text-gray-600 mb-6">Discover why artificial intelligence education is crucial for children and how it prepares them for future careers and challenges.</p>
+                        <div class="article-meta">
+                            <span>By Dr. Sarah Chen</span>
+                            <span class="separator">•</span>
+                            <span>December 10, 2024</span>
+                            <span class="separator">•</span>
+                            <span>5 min read</span>
+                        </div>
+                        <button class="primary-btn">
+                            Read Full Article
+                        </button>
+                    </div>
+                    <div class="article-image">
+                        <div class="emoji-container">
+                            🤖
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Filter -->
+    <section class="categories py-12 bg-gray-50 animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="categories-filter">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="education">Education</button>
+                <button class="category-btn" data-category="programming">Programming</button>
+                <button class="category-btn" data-category="ai-projects">AI Projects</button>
+                <button class="category-btn" data-category="psychology">Psychology</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+                <button class="category-btn" data-category="creativity">Creativity</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="blog-grid py-24 bg-gray-50 animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="posts-grid">
+                <!-- Blog posts will be dynamically inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter py-24 bg-white animate-on-scroll">
+        <div class="max-w-7xl mx-auto px-8 text-center">
+            <h2 class="text-4xl font-bold mb-4">Stay Updated</h2>
+            <p class="text-xl text-gray-600 mb-8">Subscribe to our newsletter for the latest articles and insights</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="primary-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-robot"></i>
+                        <span>NextGenAISchool</span>
+                    </div>
+                    <p>Empowering the next generation with AI education</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NextGenAISchool. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html> 
